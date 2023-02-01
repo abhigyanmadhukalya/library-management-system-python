@@ -8,6 +8,7 @@ typer = {extras = ["all"], version = "*"}
 inquirer = "*"
 rich = "*"
 pandas = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 
