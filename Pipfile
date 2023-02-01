@@ -8,8 +8,6 @@ typer = {extras = ["all"], version = "*"}
 inquirer = "*"
 rich = "*"
 pandas = "*"
-mysql-connector-python = "*"
-psycopg2 = "*"
 
 [dev-packages]
 
