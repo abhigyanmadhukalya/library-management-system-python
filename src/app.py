@@ -1,5 +1,5 @@
 from Library import *
-from Student import *
+from Pupil import *
 import typer
 from rich import print, traceback
 from inquirer import prompt, List
@@ -9,7 +9,7 @@ traceback.install()
 def main():
 
     library = Library()
-    student = Student()
+    pupil = Pupil()
 
     questions = [
         List(
