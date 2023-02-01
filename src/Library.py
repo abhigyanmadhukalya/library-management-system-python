@@ -1,3 +1,5 @@
+from rich import print
+
 class Library:
     def __init__(self,listofbooks):
             self.availablebooks = listofbooks
