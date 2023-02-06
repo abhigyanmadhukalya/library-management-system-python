@@ -1,8 +1,10 @@
 from rich import print
+from models import *
+from sqlalchemy.orm import sessionmaker
 
 class Library:
-    def __init__(self,listofbooks):
-            self.availablebooks = listofbooks
+    def __init__(self, availablebooks):
+            self.availablebooks = session.query(Books).all()
 
     def display_available_books(self):
                    print("The books we have in our library are as follows:")

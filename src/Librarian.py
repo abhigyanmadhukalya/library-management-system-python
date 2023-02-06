@@ -4,6 +4,11 @@ from models import *
 from getpass import getpass
 
 class Librarian():
+    def __init__(self, name, username, password):
+        self.name = name
+        self.username = username
+        self.password = password
+
     def add_new_books(self):
         self.new_book_name = typer.prompt(text="Enter the name of the book you'd like to add")
         self.new_book_author = typer.prompt(text="Enter the name of the author of the book you'd like to add")

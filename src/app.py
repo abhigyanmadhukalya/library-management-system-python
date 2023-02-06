@@ -31,11 +31,8 @@ def administrative_options():
 
 def main():
 
-    books = session.query(Books).all()
-    print(books)
-
-    # library = Library()
-    # pupil = Pupil()
+    library = Library()
+    pupil = Pupil()
     librarian = Librarian()
 
     questions = [
